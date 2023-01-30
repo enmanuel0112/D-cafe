@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** header **/
+
+header{
+    text-align: center;
+    background-color: rgba(49, 49, 48);
+    width: 100%;
+    padding: 2rem;
+}
+header h1{
+    margin-bottom: 8px;
+}
+.navegation a{
+    padding: 8px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+ 
+}
+.navegation a:hover{
+    color: #fff;
+    border-bottom: 2px solid #cb7108;
+    padding-bottom:2px ;
+ transition: ease-in-out 0.3s;
+   
+}
+
+h1 {
+    color: #cb7108;
+    font-size: 3rem;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 span{
+    color: #fff;
+}
+
+@media (min-width: 1280px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        height: 8vh;
+    }
+    .divice-none{
+        display: none;
+    } 
+    .subtittle{
+        margin-bottom: 3rem;
+    }
+
+    .background-image{
+        width: 100%;
+        height: 70vh;
+        
+    }
+    .conect{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+        margin: auto ;
+        height: 30vh;
+    }
+
+    .conect img{
+        width: 70%;
+        margin: auto;
+    }
+    .conect p{
+        margin: auto;
+        line-height: 1.5rem;
+    }
+
+}
+/** Section*/
+
+section{
+    background: linear-gradient(70deg, rgb(240, 224, 200, 0.3), rgb(233, 196, 153, 0.2)) ;
+}
+
+article img{
+    width: 100%;
+    margin: 8px auto;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+}
+article p{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(70, 69, 68);
+    padding: 8px;
+}
+
+.divice{
+    width: 90%;
+    margin: 2rem auto;
+    border-bottom: 1px solid rgb(56, 22, 2);
+    padding: 8px;
+}
+
+.subtittle{
+    color: rgb(156, 151, 151);
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Titan One', cursive;
+}
+.subtittle span{
+    color: rgb(95, 69, 45);
+}
+
+/** Know us **/
+
+.position{
+    width: 100%;
+    height: 75vh;
+
+}
+
+.position img{
+    border-radius: 10px;
+    height: 45vh;
+    position: absolute;
+}
+
+.square{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+   background: linear-gradient(-150deg, rgb(243, 187, 149, 0.3), rgb(236, 162, 113, 0.4));
+    min-height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    top: 15rem;
+    
+}
+.square h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'The Nautigal', cursive;
+    padding: 15px;
+    color: #fff;
+}
+.square p{
+    text-align: center;
+    font-family: 'Smooch', cursive;
+    padding: 10px;
+    color: #fff;
+   
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(122, 68, 23);
+     color: #fff;
+     margin: auto;
+     padding: 8px 30px;
+     border: none;
+     border-radius: 5px;
+     font-size: 1.2rem;
+     cursor: pointer;
+}
+.btn:hover{
+
+    background-color: rgb(65, 33, 7, 0.8);
+    transition: all 0.9s;
+}
+
+
+@media (min-width: 1200px){
+
+            /** know us **/
+
+        .position img{
+            width: 60%;
+            min-height: 70vh;
+            margin-left: 30%;
+        }
+        .square{
+            width: 40%;
+            height: 0vh;
+            top: 12rem;
+            right: 20rem;
+        }
+       .square-center{
+        width: 50%;
+        margin: auto;
+       }
+       .square-center, .btn{
+        margin-top: 8px;
+       }
+}
+
+/** Footer **/
+
+footer{
+height: 15vh;
+background-color: rgba(49, 49, 48) ;
+}
+
+footer h2{
+    padding: 8px;
+    text-align: center;    font-size: 2rem;
+    color: #cb7108;
+}
+
+footer a h2 {
+    transition: all 5s;
+}
+footer h2 span{
+    color: #fff;
+}
+ 
+footer nav{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+}
+footer nav a{
+    color: #fff;
+    margin: 8px;
+    line-height: normal;
+    
+}
+footer nav a:hover{
+    border-bottom: 2px solid #cb7108;
+    padding-bottom:2px ;
+    transition: ease-in-out 0.3s;
+   
+}
+
+@media (min-width:1200px){
+    footer{
+        height: 10vh;
+    }
+
+    .footer-align{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .footer-align a{
+        font-size: 1.3rem;
+    }
+}
+ 
+
+
+ 
